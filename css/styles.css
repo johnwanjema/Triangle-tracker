@@ -7,11 +7,11 @@
 }
 ul {
     list-style-type: none;
-    border: 100px;
+    border: 1000px;
     padding: 10px;
     overflow: hidden;
     background-color: #333;
-    padding-block-start: 0px;
+    
 }
 
 li {
