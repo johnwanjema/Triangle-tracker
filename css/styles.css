@@ -1,20 +1,10 @@
-.nav{
-    text-align: center;
 
-    text-align: inherit;
-    padding-block-end: 100px;
 
+.button{
+    font-size: 16px;
+    padding: 32px;
+    align-self:center;
 }
-ul {
-    list-style-type: none;
-    border: 1000px;
-    padding: 10px;
-    overflow: hidden;
-    background-color: #333;
-    
-}
-
-
 
 li {
     float: left;
