@@ -5082,6 +5082,7 @@
   }
   
   .jumbotron {
+    text-align: center;
     font-size: 55px;
     padding: 2rem 1rem;
     margin-bottom: 2rem;
@@ -5091,7 +5092,7 @@
   
   @media (min-width: 576px) {
     .jumbotron {
-      padding: 4rem 2rem;
+      padding: 45px;
     }
   }
   
