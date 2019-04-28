@@ -2,6 +2,7 @@ button{
     font-size: 16px;
     padding: 10px;
     align-self:center;
+    float: none;
 }
 
 li {
@@ -10,11 +11,14 @@ li {
 }
 
 
+ body { 
+
+
 h1{
-    font-size: 35px;
+    font-size: 5px;
 }
 h2{
-    font-size: 20px;
+    font-size: 100px;
 }
 
 
