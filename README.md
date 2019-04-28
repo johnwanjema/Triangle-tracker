@@ -7,7 +7,7 @@ Triangle to determine type of triangle
 ## Description
 {}
 ## Setup/Installation Requirements
-{al you require to acess my website is web browser and the link which is johnwanjema.github.io/portfolio
+{al you require to acess my website is web browser and the link which is johnwanjema.github.io/triangle-Tracker
  You can also clone it }
 
 ## Technologies Used
@@ -17,13 +17,23 @@ Triangle to determine type of triangle
 phone number:0721273839 for inquries and contributions.}
 
 ## Behaviour Driven Devlopment(BDD)
-Behaviour                     Input                     Output
 
-All sidea are equal          lengths                   Eqiulatteral
+| Behaviour                |  Input                | Output                 |
+| -------------            | -------------         |------------------------|
+| All sidea are equal      | Equal lengths(5,5,5)  |Eqiulatteral            |
+|Two sides are equal       | lengths(5,5,6)        |Isosceles               |    |
+| No sides are equal       |  lengths(3,4,5)       | Scalene                |
+|sum of two sides is less  |lenths(3,4,9)          | Triangle cant be formed|
+|than the third            |                                         
 
-Two sides are equal          lengths                   Isosceles
+                        
 
-No sides are equal           lengths                   Scalene
+                                    
+
+                           
+
+                        
+
 
 
 
