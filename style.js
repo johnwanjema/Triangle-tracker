@@ -13,7 +13,7 @@ function triangle(length1, length2, length3){
     }else if (length1===length2 && length2===length3 ){
         alert("equilateral triangle")
     } else if (length1===length2 & length2!==length3 || length1!==length2 & length2==length3){
-        alert(" isosceles triangle")
+        alert(" isosceles  triangle")
     } else if (length1!==length2 & length2!==length3 &length1!==length3 ){
         alert("scalene triangle")
     }
