@@ -11,14 +11,15 @@ li {
 }
 
 
- body { 
 
 
-h1{
-    font-size: 5px;
-}
-h2{
-    font-size: 100px;
+
+.form{
+    width: 500px;
+    max-width: 100%;
+    background: rgba(77, 0, 0, 0.534);
+    padding: 25px 20px;
+
 }
 
 
