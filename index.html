@@ -1,59 +1,47 @@
 <!DOCTYPE html>
 <html>
 <div class="jumbotron">
-    <div class="header">
-        <title>TRIANGLE TRACKER</title>
+  <div class="header">
+    <title>TRIANGLE TRACKER</title>
 
-        <head>TRIANGLE TRACKER</head>
-        <script src="style.js"></script>
-        <link href="bootstrap/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-    </div>
+    <head>TRIANGLE TRACKER</head>
+
+    <link href="bootstrap/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="style.js"></script>
+  </div>
 </div>
 
 <body>
 
 
-    <div class="about">
-        <p>This programs helps you determine
-            whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.</p>
-        <p>Al you have to do is input values of length of a triangle, and the program will privide a solution by use of
-            javascript.
-        </p>
-        <div class="#">
-            <p>TYPES OF TRIANGLES</p>
-            <p>1.Equilateral</p>
-            <p>2.Isosceles</p>
-            <p>3.Sclaene</p>
+  <div class="about">
+    <p>This programs helps you determine
+      whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.</p>
+    <p>Al you have to do is input values of length of a triangle, and the program will privide a solution by use of
+      javascript.
+    </p>
+
+  </div>
+  <div class="form">
+    <centre>
+      <div class="content">
+      <form action="" onsubmit="triangle(); return false ">
+        <p>length1</p>
+        <input id="length1" name="base" type="number" alig placeholder="Enter the length" required>
+        <p>length</p>
+        <input id="length2" name="height" type="number" placeholder="Enter the length" required>
+        <p>length3</p>
+        <input id="length3" type="number" placeholder="Enter the length" required><br>
+        <div class="buttons">
+          <input type="submit">
+          <button onclick="document.location.reload()">Reload</button>
         </div>
-        <P>But a triangle cannot be formed , if the sum of any two sides of the
-            triangle is equal to or less than the third remaining side,
-            (For example, the values 9,4 & 3 cannot form a triangle.)</P>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-        
-        </div></div>
-    </div>
-    <div class="form">
-            <form action="" onsubmit="triangle(); return false ">
-              <label for="base">Base:</label>
-              <input id="length1" name="base" type="number" placeholder="Enter the length" required>
-              <label for="height">Height:</label>
-              <input id="length2" name="height" type="number" placeholder="Enter the length" required>
-              <label for="hypotenuse">Hypotenuse:</label>
-              <input id="length3" type="number" placeholder="Enter the length" required><br>
-              <div class="buttons">
-                <input type="submit">
-                <button onclick="document.location.reload()">Reload</button>
-              </div>
-      
-            </form>
-          </div>
+      </div>
+    </centre>
 
 
-
-    </div>
+  </div>
 
 
 </body>

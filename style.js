@@ -2,10 +2,10 @@
 
 function triangle(length1, length2, length3){
     var lengths=[length1, length2, length3]
-    length1 = parseInt(prompt("enter length1"))   
-    length2 = parseInt(prompt("enter length2")) 
-    length3 = parseInt(prompt("enter length3")) 
-      
+    length1 = document.getElementById("length1").value
+    length2 = document.getElementById("length2").value
+    length3 = document.getElementById("length3").value
+
 
 
     if (  length1 + length2 <= length3 || length1 + length3 <= length2|| length2 + length3 <= length1){
@@ -19,4 +19,3 @@ function triangle(length1, length2, length3){
     }
 
 }
-
