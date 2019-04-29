@@ -8,12 +8,12 @@ function triangle(length1, length2, length3){
 
 
 
-    if (  length1 + length2 <= length3 || length1 + length3 <= length2|| length2 + length3 <= length1){
+    if (  length1 + length2 < length3 || length1 + length3 < length2|| length2 + length3 < length1){
         alert(" The values you entered cant form a triangle")
     }else if (length1===length2 && length2===length3 ){
         alert("equilateral triangle")
     } else if (length1===length2 & length2!==length3 || length1!==length2 & length2==length3){
-        alert("isoselice triangle")
+        alert(" isosceles triangle")
     } else if (length1!==length2 & length2!==length3 &length1!==length3 ){
         alert("scalene triangle")
     }
