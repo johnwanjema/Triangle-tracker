@@ -14,11 +14,11 @@ For a scalene triangle, none of the sides is equal. However, the sum of any two 
 Most importantly, if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values. (For example, the values 9,4 & 3 cannot form a triangle.)
 }
 ## Setup/Installation Requirements
-{al you require to acess my website is web browser and the link which is johnwanjema.github.io/triangle-Tracker
+{All you require to acess my website is web browser and the link which is johnwanjema.github.io/triangle-Tracker
  You can also clone it }
 
 ## Technologies Used
-{ created my website using HTML and css and bootstrap.}
+{ created my website using HTML CSS JavaScript and bootstrap.}
 ## Support and contact details
 {contact me through jonwanjema@gmail.com 
 phone number:0721273839 for inquries and contributions.}
@@ -33,18 +33,7 @@ phone number:0721273839 for inquries and contributions.}
 |sum of two sides is less  |lenths(3,4,9)          | Triangle cant be formed|
 |than the third            |                                         
 
-                        
-
-                                    
-
-                           
-
-                        
-
-
-
-
-
+                
 
 ### License
 Copyright (c) {2019} **{}**
