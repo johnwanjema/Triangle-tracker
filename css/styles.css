@@ -15,10 +15,22 @@ li {
 
 
 .form{
-    width: 500px;
-    max-width: 100%;
-  
-    padding: 25px 20px;
+    border: 3px solid green;
+    width: 100%;
+    text-align: center;
+    color: green;
+
+    padding: 5px 20px;
+
+}
+.content{
+  text-align: center;
+  font-weight: bold;
+
+}
+input{
+  padding: 10px;
+  boder
 
 }
 

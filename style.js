@@ -7,7 +7,7 @@ function triangle(length1, length2, length3){
     length3 = document.getElementById("length3").value
 
 
-
+   //if function
     if (  length1 + length2 < length3 || length1 + length3 < length2|| length2 + length3 < length1){
         alert(" The values you entered cant form a triangle")
     }else if (length1===length2 && length2===length3 ){
