@@ -1,11 +1,18 @@
 # Triangle tracker
 Triangle to determine type of triangle
 # {}
-#### {THIS WEBSITE GIVES A BRIEF DESCRPTION ABOUT ME}, {4/28/2019}
+#### {THIS WEBSITE DETERMINES TYPE OF TRIANGLE}, {4/28/2019}
 #### By **{Created by John Wanjema}**
 ### {current Version 1.0}
 ## Description
-{}
+{This programs helps you determine whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.Where 
+For an equilateral triangle, all sides must be equal.
+For an isosceles triangle, two sides are exactly equal.
+
+For a scalene triangle, none of the sides is equal. However, the sum of any two sides of the triangle must be greater than the third side.
+
+Most importantly, if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values. (For example, the values 9,4 & 3 cannot form a triangle.)
+}
 ## Setup/Installation Requirements
 {al you require to acess my website is web browser and the link which is johnwanjema.github.io/triangle-Tracker
  You can also clone it }
